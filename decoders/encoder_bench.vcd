@@ -1,0 +1,62 @@
+$date
+	Sat Aug 27 21:41:06 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_tb $end
+$var wire 4 ! y [3:0] $end
+$var reg 2 " I [1:0] $end
+$var reg 1 # en $end
+$scope module encoder_bits $end
+$var wire 2 $ I [1:0] $end
+$var wire 1 # en $end
+$var reg 4 % y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+0#
+b0 "
+b0 !
+$end
+#10
+b1 !
+b1 %
+1#
+#20
+b10 !
+b10 %
+b1 "
+b1 $
+#30
+b100 !
+b100 %
+b10 "
+b10 $
+#40
+b1000 !
+b1000 %
+b11 "
+b11 $
+#50
+b0 !
+b0 %
+0#
+b0 "
+b0 $
+#60
+b1 "
+b1 $
+#70
+b10 "
+b10 $
+#80
+b11 "
+b11 $
